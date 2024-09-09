@@ -25,18 +25,17 @@ public class SpringSecureWebservicev2 {
         return args -> {
             Place place = new Place();
             place.setName("Ha Noi");
-            place.setDescription("Hanoi is the cultural, economic and education center of Northern Vietnam");
+            place.setImageUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvTRsqE06RIiDaa5h8gFlj1RbU4EuiLwbgqA&s");
             placeRepository.save(place);
 
             Place place1 = new Place();
             place1.setName("Sai Gon");
-            place1.setDescription("Ho Chi Minh, or Saigon as it was formerly called, is the largest and most populous city in Vietnam");
+            place1.setImageUrl("https://vcdn1-vnexpress.vnecdn.net/2020/06/28/CG2A5516-1593332884.jpg?w=500&h=300&q=100&dpr=1&fit=crop&s=huJFW-nGkDo2KPzN5dqY6w");
             placeRepository.save(place1);
 
             Place place2 = new Place();
-            place2.setName("Sai Gon");
             place2.setName("Hoi An");
-            place2.setDescription("Hoi An Viet Nam is located in Quang Nam province, Central Vietnam. Peaceful and ancient, Hoi an is one of the most famous tourist destinations in Vietnam");
+            place2.setImageUrl("https://vcdn1-dulich.vnecdn.net/2022/06/01/Hoi-An-VnExpress-5851-16488048-4863-2250-1654057244.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=Z2ea_f0O7kgGZllKmJF92g");
             placeRepository.save(place2);
 
         };

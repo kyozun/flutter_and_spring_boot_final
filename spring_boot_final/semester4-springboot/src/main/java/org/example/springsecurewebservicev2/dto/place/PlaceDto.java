@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class PlaceDto {
     private String name;
-    private String description;
+    private String imageUrl;
 }
